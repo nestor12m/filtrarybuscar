@@ -1,0 +1,148 @@
+
+
+body{
+    background-color: rgb(111, 111, 247);
+    height: auto;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    
+    border-radius: 10px;
+}
+ h1{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+ }
+ h2{
+    margin: 30px auto;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+ }
+
+.contenedor_uno{
+  
+    width: 80%;
+    height: 780px;
+    margin: 0 auto;
+   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.uno{
+    margin-top: 20px;
+    /* border: 1px solid rgb(0, 26, 255); */
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 55px;
+}
+
+
+.uno1{
+    /* border: 1px solid rgb(0, 26, 255); */
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: -110px;
+    height: 55px;
+}
+
+input{
+    margin-top: 5px;
+    height: 60px;
+    border: 1px solid rgb(0, 26, 255);
+}
+
+select{
+    margin-top: 5px;
+    height: 55px;
+  
+}
+
+.reultadoparrafo{
+    text-align: center;
+    
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+.reultadoparrafo p{
+    
+   text-align: center;
+margin-top: 100px;
+}
+
+.muestra{
+    width: 270px;
+    height: 250px;
+    border: 1px solid rgb(15, 15, 15);
+    background-color: rgba(10, 10, 10, 0.226);
+}
+.alerta{
+    height: 40px;
+    background-color: red;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+}
+
+footer{
+ height: 80px;
+}
+
+footer p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+    
+}
+@media(min-width:630px){
+
+    h2{
+        margin-top: 100px;
+    }
+    main{
+    
+    background-color: white;
+
+    }
+
+    .contenedor_uno{
+    height: 400px;
+    }
+}
+
+@media(min-width:930px){
+
+    h2{
+        margin-top: 100px;
+    }
+    main{
+    height: auto;
+    background-color: rgb(242, 242, 245);
+
+    }
+
+    .contenedor_uno{
+    height: 200px;
+    }
+}
